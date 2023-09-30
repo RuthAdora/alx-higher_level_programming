@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 """Sends a POST request to http://0.0.0.0:5000/search_user with a given letter.
+<<<<<<< HEAD
 
+=======
+>>>>>>> f7687c909fa5c8750871e5a26a98a0178817ada3
 Usage: ./8-json_api.py <letter>
   - The letter is sent as the value of the variable `q`.
   - If no letter is provided, sends `q=""`.

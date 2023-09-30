@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Uses the GitHub API to display a GitHub ID based on given credentials.
+<<<<<<< HEAD
 
 Usage: ./10-my_github.py <GitHub username> <GitHub password>
   - Uses Basic Authentication to access the ID.
@@ -26,6 +27,10 @@ FUNCTIONALITY
     accessing the 'id' key of the JSON response.
 
 8. If the API call was not successful, we display the error status code.
+=======
+Usage: ./10-my_github.py <GitHub username> <GitHub password>
+  - Uses Basic Authentication to access the ID.
+>>>>>>> f7687c909fa5c8750871e5a26a98a0178817ada3
 """
 import sys
 import requests

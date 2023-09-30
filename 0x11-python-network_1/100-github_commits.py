@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Lists the 10 most recent commits on a given GitHub repository.
+<<<<<<< HEAD
 
 Usage: ./100-github_commits.py <repository name> <repository owner>
 
@@ -26,6 +27,9 @@ FUNCTIONALITY
 7. If the API call was not successful,
     we display the error status code.
 
+=======
+Usage: ./100-github_commits.py <repository name> <repository owner>
+>>>>>>> f7687c909fa5c8750871e5a26a98a0178817ada3
 """
 import sys
 import requests
@@ -35,8 +39,13 @@ if __name__ == "__main__":
     url = "https://api.github.com/repos/{}/{}/commits".format(
         sys.argv[2], sys.argv[1])
 
+<<<<<<< HEAD
     response = requests.get(url)
     commits = response.json()
+=======
+    r = requests.get(url)
+    commits = r.json()
+>>>>>>> f7687c909fa5c8750871e5a26a98a0178817ada3
     try:
         for i in range(10):
             print("{}: {}".format(

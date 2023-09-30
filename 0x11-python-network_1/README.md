@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 **Read or watch**:
 
@@ -299,3 +300,6 @@ guillaume@ubuntu:~/0x11$
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x11-python-network_1`
 - File: `8-json_api.py`
+=======
+# 0x11. Python - Network #1
+>>>>>>> f7687c909fa5c8750871e5a26a98a0178817ada3

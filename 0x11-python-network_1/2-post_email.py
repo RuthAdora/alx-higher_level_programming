@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 """Sends a POST request to a given URL with a given email.
+<<<<<<< HEAD
 
+=======
+>>>>>>> f7687c909fa5c8750871e5a26a98a0178817ada3
 Usage: ./2-post_email.py <URL> <email>
   - Displays the body of the response.
 """
