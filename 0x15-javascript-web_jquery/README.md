@@ -1,8 +1,5 @@
 0x15. JavaScript - Web jQuery
-=============================
-
-- By Dev Nderitu
-- Weight: 1
+============================
 
 Concepts
 --------
